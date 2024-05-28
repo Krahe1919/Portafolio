@@ -5,3 +5,14 @@
 ::-webkit-scrollbar{
     width: 0;
 }
+
+html, body {
+    color: #fff;
+    background: #1f1934;
+}
+
+@layer utilities{
+    .text-balance {
+        text-wrap: balance;
+    }
+}
