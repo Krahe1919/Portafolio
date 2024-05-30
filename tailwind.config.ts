@@ -11,6 +11,7 @@ const config: Config = {
       colors: {
         secondary: "#f5741c",
         darkBg: "#131424",
+        violet: "#312e81"
       },
       backgroundImage: {
         "gradient-cover":

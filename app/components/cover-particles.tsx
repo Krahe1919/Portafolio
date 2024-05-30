@@ -41,7 +41,7 @@ export const CoverParticles = () => {
                             mode: "push",
                         },
                         onHover: {
-                            enable: true,
+                            enable: false,
                             mode: "grab",
                         },
                         

@@ -8,7 +8,13 @@
 
 html, body {
     color: #fff;
-    background: #1f1934;
+    background: #200289;
+}
+
+main {
+    background: #4b3b5d;
+    height: 100vh;
+    height: 100dvh;
 }
 
 @layer utilities{
