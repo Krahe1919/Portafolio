@@ -7,7 +7,7 @@ import { FiAlignRight } from "react-icons/fi";
 
 interface SidebarProps {
     toggleMenu: () => void;
-  }
+}
 
 export const Sidebar: React.FC<SidebarProps> = ({ toggleMenu }) => {
     

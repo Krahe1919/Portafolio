@@ -1,43 +1,20 @@
 "use client"
 
-import { useState } from "react";
-import Image from "next/image";
-import { Container } from "postcss";
-import { TiThMenu } from "react-icons/ti";
-import { FaSquareGithub } from "react-icons/fa6";
-import { GoBriefcase } from "react-icons/go";
-import { Sidebar } from "./components/sidebar"; 
-import { IoClose } from "react-icons/io5";
-import { FiAlignRight } from "react-icons/fi";
-import { FaReact } from "react-icons/fa";
 import { CoverParticles } from "./components/cover-particles"
-import { itemsNavbar } from "@/data";
-import Link from "next/link"
-import personaImg from '../public/persona.png';
-import { usePathname } from "next/navigation";
-import { Navbar } from "./components/navbar";
-import { TransitionPage } from "./components/TransitionPage";
+import { PageTransition } from "./components/page-transition"
 
 export default function Home() {
 
-  const router = usePathname()
-
-  const [showMenu, setShowMenu] = useState(false);
-
-    const toggleMenu = () => {
-        setShowMenu(!showMenu);
-    };
-
   return (
     <main>
-      <TransitionPage />
-      <div className="flex min-h-[100vh] h-full bg-no-repeat bg-gradient-cover">
-        <CoverParticles/>
-      </div>
+      <PageTransition/>
+        <div className="flex min-h-[100vh] h-full bg-no-repeat bg-gradient-cover">
+          <CoverParticles/>
+        </div>
     </main>
 
-
-
+  );
+}
 
     // <main className="">
     //   <div className="min-h-[100vh] h-full bg-no-repeat bg-gradient-cover ">
@@ -83,5 +60,4 @@ export default function Home() {
     //     </div>
     //   </main>
     
-  );
-}
+  

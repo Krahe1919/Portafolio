@@ -1,6 +1,7 @@
-'use client'
-import { motion } from "framer-motion"
+"use client"
+
 import { fadeIn } from "../utils/motion-transitions";
+import { motion } from "framer-motion"
 
 interface MotionTransitionProps{
     children : React.ReactNode
