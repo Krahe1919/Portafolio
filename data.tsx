@@ -1,4 +1,10 @@
 import { BookText, CodeSquare, HomeIcon, UserRound, Linkedin, Twitter, Rss, Twitch, Youtube, Crop, Pencil, Computer, Book, Rocket, Speech } from "lucide-react";
+import { FaReact, FaLaravel  } from "react-icons/fa";
+import { DiPostgresql } from "react-icons/di";
+import { GrMysql } from "react-icons/gr";
+import { SiSpring } from "react-icons/si";
+
+
 
 export const socialNetworks = [
     {
@@ -73,22 +79,22 @@ export const dataAboutPage = [
     {
         id: 2,
         title: "Proyecto de formacion",
-        subtitle: "PixelCrafters",
-        description: "Trabaja en proyectos emocionantes que desafían los límites de la creatividad y la tecnología. Únete a nosotros mientras creamos experiencias digitales cautivadoras que inspiran y cautivan a nuestros usuarios.",
+        subtitle: "Landig Page Pasteleria",
+        description: "Desarrollo de una landind page sencilla para una pasteleria con conexion a base de datos MySql",
         date: "julio 2023",
     },
     {
         id: 3,
-        title: "Especialista en Desarrollo Frontend",
-        subtitle: "CodeForge Solutions",
-        description: "Como desarrollador frontend, tendrás la oportunidad de colaborar en proyectos diversos y desafiantes que te permitirán expandir tus habilidades y dejar tu huella en el mundo digital.",
+        title: "Practicas Laborales",
+        subtitle: "Mi primer experencia laboral",
+        description: "Comienzo de mis practicas laborales sedido a la fabrica de software del centro de servicios finacieros donde trabaje un caso de estudio de bolsa de empleo en un equipo de trabajo con metodologia scrum, y tecnologias como react.vite y php Laravel.",
         date: "enero 2024",
     },
     {
         id: 4,
-        title: "Prácticas Grado",
-        subtitle: "WebWizards Inc.",
-        description: "Únete a nosotros mientras creamos sitios web y aplicaciones interactivas que sorprenden y deleitan a nuestros clientes. Si tienes pasión por el diseño y la programación, y disfrutas colaborar en un entorno creativo, ¡queremos conocerte!        ",
+        title: "Proyeccion de practicas Laborales completadas",
+        subtitle: "Proyeccion en el desarrollo.",
+        description: "En un lapso de 6 meses trabaje en la estructuracion y creacion de dasboard para inventarios slider y landing page con react.vite y Next.js con un poco de Laravel y Spring boot, actualmente me encuentro en estudio y creacion de varios proyectos para demostrar mis conocimientos en tecnologias de front y back ",
         date: "junio 2024",
     },
 ]
@@ -97,7 +103,7 @@ export const dataCounter = [
     {
         id: 0,
         endCounter: 2,
-        text: "De etapa lectiva",
+        text: " Años de etapa lectiva",
         lineRight: true,
         lineRightMobile: true,
     },
@@ -126,28 +132,28 @@ export const dataCounter = [
 
 export const serviceData = [
     {
-        icon: <Crop />,
-        title: "Branding",
+        icon: <FaReact />,
+        title: "REACT",
         description: "Desarrollo de una identidad de marca sólida y coherente, incluyendo diseño de logotipo, colores y elementos visuales",
     },
     {
-        icon: <Pencil />,
-        title: "Diseño web",
+        icon: <FaLaravel />,
+        title: "LARAVEL",
         description: "Diseño creativo y profesional de interfaces web intuitivas y atractivas, centradas en la experiencia del usuario",
     },
     {
-        icon: <Computer />,
-        title: "Desarrollo web",
+        icon: <SiSpring  />,
+        title: "SPRING BOOT",
         description: "Diseño y desarrollo de sitios web a medida, adaptados a tus necesidades",
     },
     {
-        icon: <Book />,
-        title: "Copywriting",
+        icon: <DiPostgresql />,
+        title: "POSTGREST",
         description: "Creación de contenido persuasivo y atractivo que capta la atención de tu audiencia",
     },
     {
-        icon: <Rocket />,
-        title: "SEO",
+        icon: <GrMysql />,
+        title: "MYSQL",
         description: "Optimización de tu presencia en línea mediante estrategias de SEO avanzadas, ",
     },
 ];
