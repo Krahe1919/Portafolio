@@ -35,7 +35,7 @@ export const Introduction = () => {
                             Como desarrollor junior frontend, me dedico a autoamprender y adaptarme para generar un contenido de calidad de un equipo de desarrollo
                     </p>
                     <div className="flex items-center justify-center gap-3 md:justify-start md:gap-10 my-8">
-                        <Link href="/projects" className="px-3 py-2 transition-all border-2 cursor-pointer w-fit rounded-xl  text-md hover:bg-violet/50 hover:border-violet/50"> Ver Proyectos
+                        <Link href="/projects" className="px-3 py-2 transition-all border-2 cursor-pointer w-fit rounded-xl  text-md border-violet bg-violet hover:bg-violet/50 hover:border-violet/50"> Contactame
                         </Link>
 
                         <Link href="/projects" className="px-3 py-2 transition-all border-2 cursor-pointer w-fit rounded-xl  text-md hover:bg-violet/50 hover:border-violet/50"> Ver Proyectos

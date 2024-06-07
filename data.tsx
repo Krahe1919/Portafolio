@@ -134,27 +134,27 @@ export const serviceData = [
     {
         icon: <FaReact />,
         title: "REACT",
-        description: "Desarrollo de una identidad de marca sólida y coherente, incluyendo diseño de logotipo, colores y elementos visuales",
-    },
+        description: "75%",
+    },  
     {
         icon: <FaLaravel />,
         title: "LARAVEL",
-        description: "Diseño creativo y profesional de interfaces web intuitivas y atractivas, centradas en la experiencia del usuario",
+        description: "10%",
     },
     {
         icon: <SiSpring  />,
         title: "SPRING BOOT",
-        description: "Diseño y desarrollo de sitios web a medida, adaptados a tus necesidades",
+        description: "5%",
     },
     {
         icon: <DiPostgresql />,
-        title: "POSTGREST",
-        description: "Creación de contenido persuasivo y atractivo que capta la atención de tu audiencia",
+        title: "POSTGRESQL",
+        description: "5%",
     },
     {
         icon: <GrMysql />,
         title: "MYSQL",
-        description: "Optimización de tu presencia en línea mediante estrategias de SEO avanzadas, ",
+        description: "5%",
     },
 ];
 
