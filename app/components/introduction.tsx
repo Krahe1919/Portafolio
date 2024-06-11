@@ -32,7 +32,7 @@ export const Introduction = () => {
                         />
                     </h1>
                     <p className="mx-auto mb-2 text-xl md:mx-0 md:mb-8">
-                            Como desarrollor junior frontend, me dedico a autoamprender y adaptarme para generar un contenido de calidad de un equipo de desarrollo
+                            Como desarrollador junior recien salido de practicas busco dar calidad a mi proximo equipo de trabajo, adaptandome a nuevas metodologias de desarrollo y tecnologias emergentes, comunicandome asertivamente y dando todo de mi hasta el ultimo segundo para entregar un resultado
                     </p>
                     <div className="flex items-center justify-center gap-3 md:justify-start md:gap-10 my-8">
                         <Link href="/projects" className="px-3 py-2 transition-all border-2 cursor-pointer w-fit rounded-xl  text-md border-violet bg-violet hover:bg-violet/50 hover:border-violet/50"> Contactame
