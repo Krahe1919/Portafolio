@@ -1,5 +1,5 @@
-import { BookText, CodeSquare, HomeIcon, UserRound, Linkedin, Twitter, Rss, Twitch, Youtube, Crop, Pencil, Computer, Book, Rocket, Speech } from "lucide-react";
-import { FaReact, FaLaravel  } from "react-icons/fa";
+import { BookText, CodeSquare, HomeIcon, UserRound, Linkedin, Speech } from "lucide-react";
+import { FaReact, FaLaravel, FaGithub, FaWhatsapp    } from "react-icons/fa";
 import { DiPostgresql } from "react-icons/di";
 import { GrMysql } from "react-icons/gr";
 import { SiSpring } from "react-icons/si";
@@ -9,29 +9,20 @@ import { SiSpring } from "react-icons/si";
 export const socialNetworks = [
     {
         id: 1,
-        logo: <Youtube size={30} strokeWidth={1} />,
-        src: "#!",
+        logo: <FaGithub size={30} strokeWidth={1} />,
+        src: "https://github.com/Krahe1919",
     },
     {
         id: 2,
-        logo: <Linkedin size={30} strokeWidth={1} />,
-        src: "#!",
+        logo: <FaWhatsapp size={30} strokeWidth={1} />,
+        src: "https://wa.me/573227222411",
     },
     {
         id: 3,
-        logo: <Twitter size={30} strokeWidth={1} />,
-        src: "#!",
+        logo: <Linkedin size={30} strokeWidth={1} />,
+        src: "https://www.linkedin.com/in/harol-moreno-557180254/",
     },
-    {
-        id: 4,
-        logo: <Rss size={30} strokeWidth={1} />,
-        src: "#!",
-    },
-    {
-        id: 5,
-        logo: <Twitch size={30} strokeWidth={1} />,
-        src: "#!",
-    },
+    
 ];
 
 
@@ -175,47 +166,35 @@ export const dataPortfolio = [
     },
 ];
 
-export const dataTestimonials = [
+export const dataSkills = [
     {
         id: 1,
-        name: "George Snow",
-        description:
-            "¡Increíble plataforma! Los testimonios aquí son genuinos y me han ayudado a tomar decisiones informadas. ¡Altamente recomendado!",
-        imageUrl: "/profile1.png",
+        name: "Trabajo En Equipo",
+        imageUrl: "/equipo.png",
     },
     {
         id: 2,
-        name: "Juan Pérez",
-        description:
-            "Me encanta la variedad de testimonios disponibles en esta página. Es inspirador ver cómo otras personas han superado desafíos similares a los míos. ¡Gracias por esta invaluable fuente de motivación!",
-        imageUrl: "/profile2.png",
+        name: "Disciplina",
+        imageUrl: "/disciplina.png",
     },
     {
         id: 3,
-        name: "María García",
-        description:
-            "Excelente recurso para obtener opiniones auténticas sobre diferentes productos y servicios. Me ha ayudado mucho en mis compras en línea. ¡Bravo por este sitio!",
-        imageUrl: "/profile3.png",
+        name: "Auto Aprendizaje",
+        imageUrl: "/auto-aprendizaje.png",
     },
     {
         id: 4,
-        name: "Laura Snow",
-        description:
-            "¡Qué descubrimiento tan fantástico! Los testimonios aquí son honestos y detallados. Me siento más seguro al tomar decisiones después de leer las experiencias compartidas por otros usuarios.",
-        imageUrl: "/profile4.png",
+        name: "Adaptabilidad",
+        imageUrl: "/adaptabilidad.png",
     },
     {
         id: 5,
-        name: "Carlos Sánchez",
-        description:
-            "Una joya en la web. Los testimonios son fáciles de encontrar y están bien organizados. ¡Definitivamente mi destino número uno cuando necesito referencias confiables!",
-        imageUrl: "/profile5.png",
+        name: "Perseverancia",
+        imageUrl: "/perseverancia.png",
     },
     {
         id: 6,
-        name: "Antonio Martínez",
-        description:
-            "¡Fantástico recurso para aquellos que buscan validación antes de tomar decisiones importantes! Los testimonios aquí son veraces y realmente útiles. ¡Gracias por simplificar mi proceso de toma de decisiones!",
-        imageUrl: "/profile6.png",
+        name: "Escucha Activa",
+        imageUrl: "/escucha.png",
     },
 ];

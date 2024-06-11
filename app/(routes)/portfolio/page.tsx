@@ -3,13 +3,14 @@
 import { ContainerPage } from "@/app/components/container";
 import PortfolioBox from "@/app/components/portafolio-box";
 import TransitionPage from "@/app/components/transition-page";
+import MotionTransition from "@/app/components/trasnsition-component";
 import { dataPortfolio } from "@/data";
 
 export default function PortafolioPage  () {
     return(
         <ContainerPage>
             <TransitionPage/>
-                <div className="flex flex-col items-center justify-center h-full md:text-4xl md:mb-5">
+                <MotionTransition position="bottom" className="flex flex-col items-center justify-center h-full md:text-4xl md:mb-5">
                     <h1 className="text-2xl leading-tight text-center"> Mis últimos
                         <span className="text-violet font-bold ">Trabajos realizados</span>
                     </h1>
@@ -19,7 +20,7 @@ export default function PortafolioPage  () {
                             <PortfolioBox key={data.id} data={data}/>
                         ))}
                     </div>
-                </div>
+                </MotionTransition>
         </ContainerPage>
     );
 }

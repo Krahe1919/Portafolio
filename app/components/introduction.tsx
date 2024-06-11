@@ -35,11 +35,14 @@ export const Introduction = () => {
                             Como desarrollador junior recien salido de practicas busco dar calidad a mi proximo equipo de trabajo, adaptandome a nuevas metodologias de desarrollo y tecnologias emergentes, comunicandome asertivamente y dando todo de mi hasta el ultimo segundo para entregar un resultado
                     </p>
                     <div className="flex items-center justify-center gap-3 md:justify-start md:gap-10 my-8">
-                        <Link href="/projects" className="px-3 py-2 transition-all border-2 cursor-pointer w-fit rounded-xl  text-md border-violet bg-violet hover:bg-violet/50 hover:border-violet/50"> Contactame
+                        <a  href="https://wa.me/573227222411"  className="px-3 py-2 transition-all border-2 cursor-pointer w-fit rounded-xl  text-md border-violet bg-violet hover:bg-violet/50 hover:border-violet/50"> Contactame
+                        </a>
+
+                        <Link href="/portfolio" className="px-3 py-2 transition-all border-2 cursor-pointer w-fit rounded-xl  text-md hover:bg-violet/50 hover:border-violet/50"> Ver Proyectos
                         </Link>
 
-                        <Link href="/projects" className="px-3 py-2 transition-all border-2 cursor-pointer w-fit rounded-xl  text-md hover:bg-violet/50 hover:border-violet/50"> Ver Proyectos
-                        </Link>
+                        <a href="/bitacora08.pdf" target="_blank" rel="noopener noreferrer" className="px-3 py-2 transition-all border-2 cursor-pointer w-fit rounded-xl  text-md hover:bg-violet/50 hover:border-violet/50">Donwload Cv
+                        </a>
                     </div>
                 </div>
                 
