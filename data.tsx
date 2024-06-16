@@ -152,17 +152,17 @@ export const serviceData = [
 export const dataPortfolio = [
     {
         id: 1,
-        title: "Web Pro",
+        title: "Slider",
         image: "/1.png",
-        urlGithub: "#!",
-        urlDemo: "#!",
+        urlGithub: "https://github.com/Krahe1919/Slider",
+        urlDemo: "https://gorgeous-flan-7c2ec3.netlify.app/",
     },
     {
         id: 2,
-        title: "Desarrollo Web Ágil",
+        title: "Landing page",
         image: "/2.png",
-        urlGithub: "#!",
-        urlDemo: "#!",
+        urlGithub: "https://github.com/Krahe1919/bank",
+        urlDemo: "https://rococo-phoenix-1c4177.netlify.app/",
     },
 ];
 
