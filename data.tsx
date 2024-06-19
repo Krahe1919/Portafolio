@@ -159,10 +159,10 @@ export const dataPortfolio = [
     },
     {
         id: 2,
-        title: "Desarrollo Web Ágil",
+        title: "Landing page",
         image: "/2.png",
-        urlGithub: "#!",
-        urlDemo: "#!",
+        urlGithub: "https://github.com/Krahe1919/bank",
+        urlDemo: "https://rococo-phoenix-1c4177.netlify.app/",
     },
 ];
 
