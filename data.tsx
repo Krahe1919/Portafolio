@@ -130,22 +130,22 @@ export const serviceData = [
     {
         icon: <FaLaravel />,
         title: "LARAVEL",
-        description: "10%",
+        description: "50%",
     },
     {
         icon: <SiSpring  />,
         title: "SPRING BOOT",
-        description: "5%",
+        description: "20%",
     },
     {
         icon: <DiPostgresql />,
         title: "POSTGRESQL",
-        description: "5%",
+        description: "10%",
     },
     {
         icon: <GrMysql />,
         title: "MYSQL",
-        description: "5%",
+        description: "10%",
     },
 ];
 
