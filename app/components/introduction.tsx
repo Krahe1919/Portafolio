@@ -41,7 +41,7 @@ export const Introduction = () => {
                         <Link href="/portfolio" className="px-3 py-2 transition-all border-2 cursor-pointer w-fit rounded-xl  text-md hover:bg-violet/50 hover:border-violet/50"> Ver Proyectos
                         </Link>
 
-                        <a href="/bitacora08.pdf" target="_blank" rel="noopener noreferrer" className="px-3 py-2 transition-all border-2 cursor-pointer w-fit rounded-xl  text-md hover:bg-violet/50 hover:border-violet/50">Donwload Cv
+                        <a href="/hoja.pdf" target="_blank" rel="noopener noreferrer" className="px-3 py-2 transition-all border-2 cursor-pointer w-fit rounded-xl  text-md hover:bg-violet/50 hover:border-violet/50">Donwload Cv
                         </a>
                     </div>
                 </div>
